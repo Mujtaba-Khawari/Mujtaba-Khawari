@@ -1,0 +1,22 @@
+{
+  "name": "mujtaba-khawari",
+  "version": "1.0.0",
+  "description": "<!--\r **Mujtaba-Khawari/Mujtaba-Khawari** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mujtaba-Khawari/Mujtaba-Khawari.git"
+  },
+  "author": "Mujtaba Khawari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mujtaba-Khawari/Mujtaba-Khawari/issues"
+  },
+  "homepage": "https://github.com/Mujtaba-Khawari/Mujtaba-Khawari#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
