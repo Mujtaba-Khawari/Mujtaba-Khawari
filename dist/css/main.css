@@ -1,8 +1,95 @@
-body {
-  background: #444; }
+html, body {
+  margin: 0; }
 
-#main-footer p .span-footr2 {
-  color: #d31a1a; }
+#nav-bar {
+  margin-left: 220px;
+  margin-right: 160px;
+  background-color: #333;
+  color: #fff; }
+  #nav-bar .int-div {
+    height: 100px;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #aa1925; }
+  #nav-bar ul {
+    list-style: none; }
+  #nav-bar li {
+    display: inline; }
+  #nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 20px; }
 
-#main-footer p .span-footr1 {
-  color: red; }
+.sidenav-left {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow: hidden; }
+  .sidenav-left .logo {
+    height: 180px;
+    margin-top: 0px;
+    background-color: aquamarine; }
+  .sidenav-left .sit-navigation {
+    padding-top: 40px;
+    height: 500px;
+    background-color: #865413; }
+    .sidenav-left .sit-navigation ul {
+      padding: 10px;
+      margin: 0;
+      list-style: none; }
+    .sidenav-left .sit-navigation li {
+      font-size: 25px;
+      color: #fff;
+      margin-bottom: 30px;
+      margin-left: 10px; }
+    .sidenav-left .sit-navigation a {
+      margin-right: 20px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 30px;
+      display: inline-block; }
+  .sidenav-left .out-navigation {
+    height: 180px;
+    background-color: #390eb1; }
+  .sidenav-left .about {
+    height: calc(100vh - 860px);
+    background-color: #c41616; }
+
+header {
+  height: 150px;
+  margin-left: 220px;
+  margin-right: 160px;
+  background-color: chartreuse;
+  margin-top: auto;
+  overflow: hidden;
+  border: 3px solid; }
+
+.content {
+  margin-left: 220px;
+  margin-right: 160px;
+  padding: 10px;
+  min-height: calc(87.5vh - 32px);
+  background-color: #f8f4f4;
+  border: 3px solid;
+  border-color: blue; }
+
+footer {
+  margin-left: 220px;
+  margin-right: 160px;
+  border: 3px solid;
+  border-color: gold;
+  height: 50px;
+  background: aqua;
+  text-align: center; }
+
+.music {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 50px; }
+  .music img {
+    width: 100%; }
