@@ -1,3 +1,17 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #fff;
+    transition: all 0.5s ease-out; }
+
 html, body {
   margin: 0; }
 
@@ -33,7 +47,7 @@ html, body {
   .sidenav-left .logo {
     height: 180px;
     margin-top: 0px;
-    background-color: #111; }
+    background-color: none; }
   .sidenav-left .sit-navigation {
     padding-top: 40px;
     height: 450px;
