@@ -33,32 +33,57 @@ html, body {
   .sidenav-left .logo {
     height: 180px;
     margin-top: 0px;
-    background-color: aquamarine; }
+    background-color: #111; }
   .sidenav-left .sit-navigation {
     padding-top: 40px;
-    height: 500px;
-    background-color: #865413; }
+    height: 450px;
+    background-color: black; }
     .sidenav-left .sit-navigation ul {
       padding: 10px;
       margin: 0;
       list-style: none; }
     .sidenav-left .sit-navigation li {
       font-size: 25px;
-      color: #fff;
       margin-bottom: 30px;
       margin-left: 10px; }
     .sidenav-left .sit-navigation a {
-      margin-right: 20px;
-      color: #fff;
       text-decoration: none;
-      font-size: 30px;
-      display: inline-block; }
+      color: #fff; }
+      .sidenav-left .sit-navigation a i span {
+        margin-left: 1.5rem; }
   .sidenav-left .out-navigation {
-    height: 180px;
-    background-color: #390eb1; }
+    height: 150px;
+    background-color: black; }
+    .sidenav-left .out-navigation ul {
+      padding: 10px;
+      margin: 0;
+      list-style: none; }
+    .sidenav-left .out-navigation li {
+      font-size: 25px;
+      margin-bottom: 15px;
+      margin-left: 10px; }
+    .sidenav-left .out-navigation a {
+      text-decoration: none;
+      color: #fff; }
+      .sidenav-left .out-navigation a i span {
+        margin-left: 1.5rem; }
   .sidenav-left .about {
-    height: calc(100vh - 860px);
-    background-color: #c41616; }
+    padding-top: 20px;
+    height: 103px;
+    background-color: black; }
+    .sidenav-left .about ul {
+      padding: 10px;
+      margin: 0;
+      list-style: none; }
+    .sidenav-left .about li {
+      font-size: 25px;
+      margin-bottom: 15px;
+      margin-left: 10px; }
+    .sidenav-left .about a {
+      text-decoration: none;
+      color: #fff; }
+      .sidenav-left .about a i span {
+        margin-left: 1.5rem; }
 
 header {
   height: 150px;

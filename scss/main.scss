@@ -41,40 +41,81 @@ html,body{
   .logo{
     height: 180px;
     margin-top: 0px;
-    background-color: aquamarine;
+    background-color: #111; 
+      
   }
   .sit-navigation{   
     padding-top: 40px;   
-    height: 500px;
-    background-color: rgb(134, 84, 19);
+    height: 450px;
+    background-color:rgb(0, 0, 0);
     ul{
       padding: 10px;
       margin: 0;
       list-style: none;
     }
-    li{
+    li{      
       font-size: 25px;
-      color: #fff;
       margin-bottom: 30px;
       margin-left: 10px;
     }
     a{
-      margin-right: 20px;
-      color: #fff;
-      text-decoration: none;
-      font-size: 30px;      
-      display: inline-block;        
+      text-decoration: none; 
+      color: #fff; 
+      i span{
+ 
+        margin-left: 1.5rem;
+      }
     }
+
   }
   .out-navigation{
-    height: 180px;
-    background-color: rgb(57, 14, 177);
+    
+    height: 150px;
+    background-color:rgb(0, 0, 0);
+
+
+    ul{
+      padding: 10px;
+      margin: 0;
+      list-style: none;
+    }
+    li{      
+      font-size: 25px;
+      margin-bottom: 15px;
+      margin-left: 10px;
+    }
+    a{
+      text-decoration: none; 
+      color: #fff; 
+      i span{ 
+        margin-left: 1.5rem;
+      }
+    }
+
   }
 
   .about{
-
-    height:calc(100vh - 860px);
-    background-color: rgb(196, 22, 22);
+    padding-top: 20px;
+    height:103px;
+    background-color:rgb(0, 0, 0);
+    ul{
+      padding: 10px;
+      margin: 0;
+      list-style: none;
+    }
+    li{      
+      font-size: 25px;
+      margin-bottom: 15px;
+      margin-left: 10px;
+    }
+    a{
+      text-decoration: none; 
+      color: #fff; 
+      i span{ 
+        margin-left: 1.5rem;
+      }
+    }
+   
   }
   
 }
