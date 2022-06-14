@@ -1,0 +1,64 @@
+.before-footer{
+  padding-left: 20px;
+    margin-left: 402px;
+    margin-right: 160px;
+    height: 300px;
+    background:#fff;
+    display:grid;
+    grid-template-columns:3fr 1fr 1fr;
+   
+  
+  }
+  .b-div1{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;   
+  }
+  .b-div2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;   
+  }
+  .b-div3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center; 
+
+     
+  }
+
+  .before-footer >div{
+    background: #fff;
+
+  }
+
+
+  .b-div1 > div{    
+    @include easeOut;
+    &:hover{      
+      padding: 10px;
+      border: 3px solid rgb(8, 11, 160);      
+      border-radius: 5px;
+      transform: rotate(360deg);
+    }
+  }
+
+  .b-div2 > div{    
+    @include easeOut;
+    &:hover{      
+      padding: 2px;
+      border: 3px solid rgb(8, 11, 160);      
+      border-radius: 5px;
+    }
+  }
+  .b-div3 > div{    
+    @include easeOut;
+    &:hover{      
+      padding: 2px;
+      border: 3px solid rgb(8, 11, 160);      
+      border-radius: 5px;
+    }
+  }
