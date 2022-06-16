@@ -1,0 +1,74 @@
+
+.content{
+    margin-left: 402px;
+    margin-right: 160px;
+    padding: 10px;
+    padding-left: 40px;   
+    min-height: calc(87.5vh - 32px);
+    background-color:rgb(209, 199, 199); 
+    .group-type{       
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-left: 20PX;
+       
+    }               
+    .music{ 
+        display: grid;
+        grid-template-columns: repeat(4 ,1fr);
+        gap:10px ;
+        margin-bottom: 35px;                         
+    }
+    .music > a{
+        height: 300px;
+        text-decoration: none; 
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:normal;
+        font-size: 20px;
+        @include easeOut;
+        &:hover{      
+          padding: 2px;               
+          background-color: rgb(233, 223, 223);           
+          box-shadow: 2px 17px 15px 5px #000000;
+          border-radius: 5px;
+        }
+        .new{      
+            width: 50px;
+            height: 30px;            
+            background-size: cover;
+            float: right;
+            margin-right: 5px;
+   
+        }
+        .image{
+           
+            margin-top:0px;
+            height: 200px;            
+            background-repeat: no-repeat;
+            background-size:contain;
+            background-position: center; 
+                       
+        }
+        .model{
+            
+            color: rgb(10, 10, 10);
+            text-align: center;
+            
+            
+        }
+        .type{
+            color: rgb(78, 61, 40);
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 15px;
+            
+        }
+
+
+    }        
+
+}
+
+
+
