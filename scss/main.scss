@@ -6,12 +6,18 @@ html,body{
   background-color: rgb(0, 0, 0);
 }
 header{
-  height: 150px;
+  height: 350px;
   margin-left:402px ;
-  margin-right: 160px;
-  background-color:rgb(233, 225, 225);
+  margin-right: 160px;  
   margin-top: auto;
   overflow: hidden;  
+  background-image: url(/dist/images/header.jpg);
+  background-position: center center;
+  opacity:50% ;
+  h1{
+    color: aliceblue;
+    padding-left: 50px;
+  }
 }
 #nav-bar{
   margin-left:402px ;

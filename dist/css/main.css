@@ -96,12 +96,17 @@ html, body {
   background-color: black; }
 
 header {
-  height: 150px;
+  height: 350px;
   margin-left: 402px;
   margin-right: 160px;
-  background-color: #e9e1e1;
   margin-top: auto;
-  overflow: hidden; }
+  overflow: hidden;
+  background-image: url(/dist/images/header.jpg);
+  background-position: center center;
+  opacity: 50%; }
+  header h1 {
+    color: aliceblue;
+    padding-left: 50px; }
 
 #nav-bar {
   margin-left: 402px;
