@@ -108,6 +108,16 @@ header {
     color: aliceblue;
     padding-left: 50px; }
 
+.right {
+  width: 160px;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  background-image: url(/dist/images/right.jpg);
+  background-position: center center;
+  opacity: 30%; }
+
 #nav-bar {
   margin-left: 402px;
   margin-right: 160px;
