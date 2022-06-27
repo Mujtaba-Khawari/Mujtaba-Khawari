@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 html,body{
   margin: 0;
@@ -28,7 +29,6 @@ header{
   background-image: url(/dist/images/right.jpg);
   background-position: center center;
   opacity: 30%;
-
 }
 #nav-bar{
   margin-left:402px ;
