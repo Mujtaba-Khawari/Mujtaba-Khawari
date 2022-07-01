@@ -4,7 +4,8 @@
   "description": "<!--\r **Mujtaba-Khawari/Mujtaba-Khawari** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,9 @@
   "bugs": {
     "url": "https://github.com/Mujtaba-Khawari/Mujtaba-Khawari/issues"
   },
-  "homepage": "https://github.com/Mujtaba-Khawari/Mujtaba-Khawari#readme",
+  "homepage":"http://Mujtaba-Khawari.github.io/Mujtaba-Khawari/dist",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1"
   }
 }
