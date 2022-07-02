@@ -1,22 +1,15 @@
 {
   "name": "mujtaba-khawari",
   "version": "1.0.0",
-  "description": "<!--\r **Mujtaba-Khawari/Mujtaba-Khawari** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "description": "student project",
   "main": "index.js",
+  "homepage": "http://Mujtaba-Khawari.github.io/Mujtaba-Khawari/dist/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mujtaba-Khawari/Mujtaba-Khawari.git"
-  },
   "author": "Mujtaba Khawari",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Mujtaba-Khawari/Mujtaba-Khawari/issues"
-  },
-  "homepage":"http://Mujtaba-Khawari.github.io/Mujtaba-Khawari/dist",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1"
