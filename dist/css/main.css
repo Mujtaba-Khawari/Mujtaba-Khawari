@@ -110,13 +110,13 @@
     height: 100%;
     width: 150px;
     position: fixed;
-    z-index: 1;
+    z-index: -1;
     top: 0;
     left: 0;
     border-radius: 0px;
     box-shadow: none;
-    background-color: black;
-    background-image: none; }
+    background-image: none !important;
+    background-color: black; }
     body .sidenav-left .logo a img {
       margin-left: -30px; }
     body .sidenav-left .sit-navigation {
@@ -260,7 +260,7 @@
     border-radius: 0px;
     box-shadow: none;
     background-color: black;
-    background-image: none; }
+    background-image: none !important; }
     body .sidenav-left .logo a img {
       margin-left: -30px; }
     body .sidenav-left .sit-navigation {
@@ -405,7 +405,7 @@
     border-radius: 0px;
     box-shadow: none;
     background-color: black;
-    background-image: none; }
+    background-image: none !important; }
     body .sidenav-left .logo a img {
       margin-left: -30px; }
     body .sidenav-left .sit-navigation {
@@ -544,14 +544,13 @@
   body .sidenav-left {
     height: 100%;
     width: 150px;
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     border-radius: 0px;
     box-shadow: none;
     background-color: black;
-    background-image: none; }
+    background-image: none !important; }
     body .sidenav-left .logo a img {
       margin-left: -30px; }
     body .sidenav-left .sit-navigation {
@@ -713,7 +712,7 @@
     border-radius: 0px;
     box-shadow: none;
     background-color: black;
-    background-image: none; }
+    background-image: none !important; }
     body .sidenav-left .logo a img {
       margin-left: -30px; }
     body .sidenav-left .sit-navigation {
@@ -864,7 +863,7 @@
     opacity: 50%; }
   body .sidenav-left {
     height: 100%;
-    width: 430px;
+    width: 180px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -872,7 +871,7 @@
     border-radius: 0px;
     box-shadow: none;
     background-color: black;
-    background-image: none; }
+    background-image: none !important; }
     body .sidenav-left .logo a img {
       margin-left: -30px; }
     body .sidenav-left .sit-navigation {
@@ -1033,7 +1032,7 @@
     border-radius: 0px;
     box-shadow: none;
     background-color: black;
-    background-image: none; }
+    background-image: none !important; }
     body .sidenav-left .logo a img {
       margin-left: -30px; }
     body .sidenav-left .sit-navigation {
@@ -1197,7 +1196,7 @@
     border-radius: 0px;
     box-shadow: none;
     background-color: black;
-    background-image: none; }
+    background-image: none !important; }
     body .sidenav-left .logo a img {
       margin-left: -30px; }
     body .sidenav-left .sit-navigation {
