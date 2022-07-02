@@ -1713,7 +1713,6 @@ header {
   margin-right: 160px;
   margin-top: auto;
   overflow: hidden;
-  background-image: url(/dist/images/header.JPG);
   background-position: center center;
   opacity: 50%; }
   header h1 {
@@ -1726,7 +1725,6 @@ header {
   position: fixed;
   right: 0px;
   top: 0px;
-  background-image: url(/dist/images/right.jpg);
   background-position: center center;
   opacity: 30%; }
 
@@ -1763,7 +1761,6 @@ header {
   border-radius: 10px;
   box-shadow: 10px 0px 15px 5px #000000;
   background-color: black;
-  background-image: url(/dist/images/back1.gif);
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden; }
