@@ -136,6 +136,21 @@
           margin-bottom: 35px;                         
         }
     }
+    .content-giutars{
+      margin-left: 150px;           
+      width: auto;
+      .group-type{       
+
+        padding-left: 110PX;
+          
+      }  
+      .music{ 
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:10px ;
+        margin-bottom: 35px;                         
+      }
+    }
 
     .before-footer > *{
       display: none;

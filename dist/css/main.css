@@ -200,6 +200,16 @@
       grid-template-columns: repeat(1, 1fr);
       gap: 10px;
       margin-bottom: 35px; }
+  body .content-giutars {
+    margin-left: 150px;
+    width: auto; }
+    body .content-giutars .group-type {
+      padding-left: 110PX; }
+    body .content-giutars .music {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+      margin-bottom: 35px; }
   body .before-footer > * {
     display: none; }
   body footer {
@@ -1845,6 +1855,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 20px;
+    margin-bottom: 50px;
     transition: all 0.5s ease-out; }
     .content .music > a:hover {
       padding: 2px;
