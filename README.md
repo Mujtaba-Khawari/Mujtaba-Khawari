@@ -1,31 +1,62 @@
-# Hi 👋, I'm Your Name
+<div align="center">
 
-💻 Developer | 🚀 Tech Enthusiast | 🎨 Creative Builder
+# 👋 Hi, I'm YOUR NAME
+
+### 💻 Developer | 🚀 Tech Enthusiast | 🎨 Creative Builder
+
+</div>
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm passionate about building cool things with code
+Hi! I'm YOUR NAME.
+
+I'm passionate about programming, building projects,
 and learning new technologies.
 
-## 🛠️ Technologies & Tools
+---
 
-- Python
-- JavaScript
-- React
-- Git & GitHub
+## 🛠️ Skills & Technologies
+
+💻 Programming  
+🌐 Web Development  
+🐍 Python  
+⚛️ React  
+🗄️ Databases  
+🔧 Git & GitHub
+
+---
 
 ## 🚀 My Projects
 
-### Project One
-A short description of my project.
+### 🔹 Project One
+Short description of your project.
 
-### Project Two
-Another cool project I'm working on.
+### 🔹 Project Two
+Short description of your project.
 
-## 📫 Contact Me
+### 🔹 Project Three
+Short description of your project.
+
+---
+
+## 📊 GitHub Stats
+
+<!-- Stats will be added here -->
+
+---
+
+## 📫 Connect With Me
 
 - GitHub
 - LinkedIn
 - Email
+
+---
+
+<div align="center">
+
+### Thanks for visiting my profile! ⭐
+
+</div>
