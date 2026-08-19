@@ -1,4 +1,9 @@
 <div align="center">
+  <img src="./banner.png" width="100%" alt="My GitHub Banner">
+</div>
+
+<br>
+<div align="center">
 
 # 👋 Hi, I'm YOUR NAME
 
